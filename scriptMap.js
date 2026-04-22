@@ -15,6 +15,25 @@ $.getJSON('placeholder.json', function(data){
 
     $.each(data.results, function(index, station){
         var marker = L.marker([station.geo_point_2d.lat, station.geo_point_2d.lon]).addTo(map);
-    })
-})
+        
+        marker.on('click', function(){
+            console.log('Marqueur cliqué :', station.nom_station)
+            document.getElementById('infos').innerHTML=
+                `
+                    <h2>${station.nom_station}</h2>
+                    <ul>
+                        <li>id : ${station.id_station}</li>
+                        <li>Commune : ${station.commune}</li>
+                        <li>Adresse : ${station.adresse_station}</li>
+                        <li>Points de charge : ${station.nb_points_charge}</li>
+                        <li>Opérateur : ${station.nom_operateur}</li>
+                        <li>Observations : ${station.observations_stations}</li>
+                    </ul>
+                `
+        })
 
+    })
+
+    
+
+})
