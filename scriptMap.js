@@ -30,10 +30,14 @@ $.getJSON('placeholder.json', function(data){
                         <li>Observations : ${station.observations_stations}</li>
                     </ul>
                 `
+            //ouvvrir barre latérale
+            $('#barre_laterale').removeClass('fermee')
         })
 
     })
-
-    
+    //fermer barre latérale
+    $('#btn-fermer').on('click', function(){
+    $('#barre_laterale').addClass('fermee')
+})
 
 })
