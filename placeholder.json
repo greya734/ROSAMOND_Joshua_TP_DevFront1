@@ -1,232 +1,565 @@
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
+{
+  "total_count": 53,
+  "results": [
+    {
+      "objectid": 41,
+      "globalid": "b21afa4d-db1e-4500-8ecc-74af4f195355",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "SLK Mobility",
+      "nom_amenageur": "SLK",
+      "nom_operateur": "SLK",
+      "nom_station": "Orphelinat",
+      "adresse_station": "113 Route de l'Anse vata",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 3,
+      "observations_stations": null,
+      "id_station": "NC-98800-2022-6-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.44580502672764, -22.294781186305364],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.44580502672764,
+        "lat": -22.294781186305364
       }
     },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
+    {
+      "objectid": 45,
+      "globalid": "100a86f8-03bf-4a2f-8970-fd7514754f7d",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Borne de Poum",
+      "nom_amenageur": "CEGELEC",
+      "nom_operateur": "Mairie de Poum",
+      "nom_station": "Borne de la mairie de Poum",
+      "adresse_station": "Mairie de Poum, 98826",
+      "commune": "POUM",
+      "code_commune": "98826",
+      "code_postal": "98826",
+      "nb_points_charge": 2,
+      "observations_stations": "Installé en 2021",
+      "id_station": "NC-98826-2022-2-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [164.023642, -20.23141],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 164.023642,
+        "lat": -20.23141
       }
     },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
+    {
+      "objectid": 46,
+      "globalid": "35e524e3-b3ef-4fe8-8f25-171274e4a990",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Borne de l'Agence de Panda",
+      "nom_amenageur": "CEGELEC",
+      "nom_operateur": "Agence Enercal Panda",
+      "nom_station": "Agence Enercal Panda",
+      "adresse_station": "Avenue Antoine Becquerel",
+      "commune": "DUMBEA",
+      "code_commune": "98805",
+      "code_postal": "98835",
+      "nb_points_charge": 2,
+      "observations_stations": "Mise en service en 2022",
+      "id_station": "NC-98835-2022-13-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.445623, -22.18119],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.445623,
+        "lat": -22.18119
       }
     },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Patricia Lebsack",
-    "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-      "street": "Hoeger Mall",
-      "suite": "Apt. 692",
-      "city": "South Elvis",
-      "zipcode": "53919-4257",
-      "geo": {
-        "lat": "29.4572",
-        "lng": "-164.2990"
+    {
+      "objectid": 47,
+      "globalid": "000ea35d-d943-402c-815d-c45070d4c8b1",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "EVBox BusinessLine",
+      "nom_amenageur": "SOCOMETRA",
+      "nom_operateur": "SOCOMETRA",
+      "nom_station": "CHT Médipole",
+      "adresse_station": "Boulevard Wamytan",
+      "commune": "DUMBEA",
+      "code_commune": "98805",
+      "code_postal": "98835",
+      "nb_points_charge": 4,
+      "observations_stations": null,
+      "id_station": "NC-98835-2022-7-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.4517498088055, -22.21016268391486],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.4517498088055,
+        "lat": -22.21016268391486
       }
     },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
-    "company": {
-      "name": "Robel-Corkery",
-      "catchPhrase": "Multi-tiered zero tolerance productivity",
-      "bs": "transition cutting-edge web services"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Chelsey Dietrich",
-    "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
-      "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
+    {
+      "objectid": 48,
+      "globalid": "d1427e4f-5a5f-4393-88b5-9b879dde731e",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Aquarium des lagons",
+      "nom_amenageur": "SOCOMETRA",
+      "nom_operateur": "SOCOMETRA",
+      "nom_station": "Aquarium",
+      "adresse_station": "61, promenade Roger Laroque, Anse-Vata",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 2,
+      "observations_stations": "Sous réserve du financement du projet de réfection du parking de l'aquarium (30 M FCFP) en 2023",
+      "id_station": "NC-98800-2022-8-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.43813008982818, -22.30276927827432],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.43813008982818,
+        "lat": -22.30276927827432
       }
     },
-    "phone": "(254)954-1289",
-    "website": "demarco.info",
-    "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Mrs. Dennis Schulist",
-    "username": "Leopoldo_Corkery",
-    "email": "Karley_Dach@jasper.info",
-    "address": {
-      "street": "Norberto Crossing",
-      "suite": "Apt. 950",
-      "city": "South Christy",
-      "zipcode": "23505-1337",
-      "geo": {
-        "lat": "-71.4197",
-        "lng": "71.7478"
+    {
+      "objectid": 49,
+      "globalid": "2894e731-8c6c-4794-8398-484ee8a883ce",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Socometra Engie",
+      "nom_amenageur": "Socometra Engie",
+      "nom_operateur": "Socometra Engie",
+      "nom_station": "IRVE Clinique Kuindo Magnin",
+      "adresse_station": "Parking Clinique Kuindo Magnin, Rue Contre-Amiral Joseph du Bouzet, Nouméa 98800, Nouvelle-Calédonie",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 2,
+      "observations_stations": "Borne de recharge publique placée sur le parking de la clinique Kuindo Magnin, en face de l'accueil",
+      "id_station": "NC-98800-2022-9-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.40842440533842, -22.26900611736424],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.40842440533842,
+        "lat": -22.26900611736424
       }
     },
-    "phone": "1-477-935-8478 x6430",
-    "website": "ola.org",
-    "company": {
-      "name": "Considine-Lockman",
-      "catchPhrase": "Synchronised bottom-line interface",
-      "bs": "e-enable innovative applications"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Kurtis Weissnat",
-    "username": "Elwyn.Skiles",
-    "email": "Telly.Hoeger@billy.biz",
-    "address": {
-      "street": "Rex Trail",
-      "suite": "Suite 280",
-      "city": "Howemouth",
-      "zipcode": "58804-1099",
-      "geo": {
-        "lat": "24.8918",
-        "lng": "21.8984"
+    {
+      "objectid": 52,
+      "globalid": "ab5900fc-5069-4e65-8936-7f4f0af3777c",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "EVBOX",
+      "nom_amenageur": "MAIRIE DE BOURAIL",
+      "nom_operateur": "SOCOMETRA",
+      "nom_station": "DEVAS BIKE",
+      "adresse_station": "DOMAINE DE DEVA 98870 BOURAIL",
+      "commune": "BOURAIL",
+      "code_commune": "98803",
+      "code_postal": "98870",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98870-2022-12-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [165.37167587280197, -21.599232996582607],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 165.37167587280197,
+        "lat": -21.599232996582607
       }
     },
-    "phone": "210.067.6132",
-    "website": "elvis.io",
-    "company": {
-      "name": "Johns Group",
-      "catchPhrase": "Configurable multimedia task-force",
-      "bs": "generate enterprise e-tailers"
-    }
-  },
-  {
-    "id": 8,
-    "name": "Nicholas Runolfsdottir V",
-    "username": "Maxime_Nienow",
-    "email": "Sherwood@rosamond.me",
-    "address": {
-      "street": "Ellsworth Summit",
-      "suite": "Suite 729",
-      "city": "Aliyaview",
-      "zipcode": "45169",
-      "geo": {
-        "lat": "-14.3990",
-        "lng": "-120.7677"
+    {
+      "objectid": 55,
+      "globalid": "401c6c24-3ebe-458a-8190-d47e0bc08ce9",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Enercal",
+      "nom_amenageur": "Omexom",
+      "nom_operateur": "Enercal",
+      "nom_station": "Nexans Agicity Duo",
+      "adresse_station": "Piscine de koutio, Avenue du centre, Dumbéa",
+      "commune": "DUMBEA",
+      "code_commune": "98805",
+      "code_postal": "98835",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98835-2022-16-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.46547989202816, -22.212623696099744],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.46547989202816,
+        "lat": -22.212623696099744
       }
     },
-    "phone": "586.493.6943 x140",
-    "website": "jacynthe.com",
-    "company": {
-      "name": "Abernathy Group",
-      "catchPhrase": "Implemented secondary concept",
-      "bs": "e-enable extensible e-tailers"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Glenna Reichert",
-    "username": "Delphine",
-    "email": "Chaim_McDermott@dana.io",
-    "address": {
-      "street": "Dayna Park",
-      "suite": "Suite 449",
-      "city": "Bartholomebury",
-      "zipcode": "76495-3109",
-      "geo": {
-        "lat": "24.6463",
-        "lng": "-168.8889"
+    {
+      "objectid": 56,
+      "globalid": "85314f11-27fc-47f3-8e90-e838f887d0c3",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Enercal",
+      "nom_amenageur": "Omexom",
+      "nom_operateur": "Enercal",
+      "nom_station": "Nexans Agicity Pro",
+      "adresse_station": "Parking du golf de Dumbéa, Dumbéa Rivière",
+      "commune": "DUMBEA",
+      "code_commune": "98805",
+      "code_postal": "98835",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98835-2022-17-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.454096, -22.15031],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.454096,
+        "lat": -22.15031
       }
     },
-    "phone": "(775)976-6794 x41206",
-    "website": "conrad.com",
-    "company": {
-      "name": "Yost and Sons",
-      "catchPhrase": "Switchable contextually-based project",
-      "bs": "aggregate real-time technologies"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Clementina DuBuque",
-    "username": "Moriah.Stanton",
-    "email": "Rey.Padberg@karina.biz",
-    "address": {
-      "street": "Kattie Turnpike",
-      "suite": "Suite 198",
-      "city": "Lebsackbury",
-      "zipcode": "31428-2261",
-      "geo": {
-        "lat": "-38.2386",
-        "lng": "57.2232"
+    {
+      "objectid": 61,
+      "globalid": "66064e48-0008-44ac-84cf-5c783a7c5ea3",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "HOTEL LE LAGON",
+      "nom_amenageur": "VLB électricité",
+      "nom_operateur": "hôtel le lagon",
+      "nom_station": "Recharge HOTEL LE LAGON",
+      "adresse_station": "149, route de l'Anse Vata",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 2,
+      "observations_stations": "ocpp evolutive 2.0",
+      "id_station": "NC-98800-2022-22-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.44548473248534, -22.300979250275866],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.44548473248534,
+        "lat": -22.300979250275866
       }
     },
-    "phone": "024-648-3804",
-    "website": "ambrose.net",
-    "company": {
-      "name": "Hoeger LLC",
-      "catchPhrase": "Centralized empowering task-force",
-      "bs": "target end-to-end models"
+    {
+      "objectid": 63,
+      "globalid": "76d226fc-404d-4171-8fcb-cc525a004c0b",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Commune de Maré",
+      "nom_amenageur": "Omexom",
+      "nom_operateur": "CityZen",
+      "nom_station": "Mairie de Maré - Nexans Agicity PRO",
+      "adresse_station": "Mairie de Maré, RM3, 98828 Tadine, Maré",
+      "commune": "MARE",
+      "code_commune": "98815",
+      "code_postal": "98828",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98828-2022-24-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [167.8776562331741, -21.547378077268075],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 167.8776562331741,
+        "lat": -21.547378077268075
+      }
+    },
+    {
+      "objectid": 64,
+      "globalid": "cc1da91c-ce39-416f-8615-64c8a2343014",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Commune de Maré",
+      "nom_amenageur": "Omexom",
+      "nom_operateur": "CityZen",
+      "nom_station": "Aérogare de la Roche - Nexans Agicity PRO",
+      "adresse_station": "Aérogare de Maré, RM1, 98878 La Roche, Maré",
+      "commune": "MARE",
+      "code_commune": "98815",
+      "code_postal": "98828",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98828-2022-25-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [168.03606837983534, -21.482053700585425],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 168.03606837983534,
+        "lat": -21.482053700585425
+      }
+    },
+    {
+      "objectid": 72,
+      "globalid": "ccfdfeaa-71d6-4688-8be8-a26dc0a0f475",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Mairie du Mont-Dore",
+      "nom_amenageur": "Mairie du Mont-Dore",
+      "nom_operateur": "Mairie du Mont-Dore",
+      "nom_station": "Hôtel de Ville du Mont-Dore",
+      "adresse_station": "4468 Avenue des deux baies, BP 3, Boulari, 98 810, Mont-Dore",
+      "commune": "MONT DORE",
+      "code_commune": "98817",
+      "code_postal": "98809",
+      "nb_points_charge": 1,
+      "observations_stations": "Montant des investissements : bornes de recharge + installations de panneaux solaires.\nIl y a une borne et deux prises de recharge.",
+      "id_station": "NC-98809-2022-28-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.52359552677012, -22.229630085672976],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.52359552677012,
+        "lat": -22.229630085672976
+      }
+    },
+    {
+      "objectid": 73,
+      "globalid": "09a613eb-c82d-4634-8d73-1bd931ff15a9",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "SLK MOBILITY",
+      "nom_amenageur": "SLK Mobility",
+      "nom_operateur": "SLK MOBILITY",
+      "nom_station": "Réseau SLK Mobility",
+      "adresse_station": "2 Rue Flemming DUCOS",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 3,
+      "observations_stations": "2 point de charge DC 20 KW\n1 Point de charge AC 11 kW",
+      "id_station": "NC-98800-2022-29-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.44739727340573, -22.2397505033751],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.44739727340573,
+        "lat": -22.2397505033751
+      }
+    },
+    {
+      "objectid": 78,
+      "globalid": "acb7dc82-cc84-4c47-8afa-af959ab4eff9",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_amenageur": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_operateur": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_station": "Musée Maritime",
+      "adresse_station": "11 avenue James Cook",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98800-2023-34-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.4331493212357, -22.267984774538633],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.4331493212357,
+        "lat": -22.267984774538633
+      }
+    },
+    {
+      "objectid": 80,
+      "globalid": "0f65f300-fa0d-4b33-89b8-7e398915c135",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_amenageur": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_operateur": "PORT AUTONOME DE LA NOUVELLE CALEDONIE",
+      "nom_station": "PANC STATION N",
+      "adresse_station": "37 RUE DU COMMANDANT BABO",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98800-2023-36-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.42566210474453, -22.265686000459123],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.42566210474453,
+        "lat": -22.265686000459123
+      }
+    },
+    {
+      "objectid": 83,
+      "globalid": "ed1a72b4-2593-4aad-8739-a89fc02f1ac5",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Borne de recharge CIRCONTROL eVolve Smart Post 2x22kW AC",
+      "nom_amenageur": "ENERGIE SOLAIRE NC",
+      "nom_operateur": "SEM MWE ARA",
+      "nom_station": "Office de Tourisme de Bourail - Déva",
+      "adresse_station": "Office de Tourisme de Bourail, 1 lot Gouaro Déva, 98870 BOURAIL",
+      "commune": "BOURAIL",
+      "code_commune": "98803",
+      "code_postal": "98870",
+      "nb_points_charge": 2,
+      "observations_stations": "Réalisée suite à l'appel à projets 2022 du Gouvernement de la NC",
+      "id_station": "NC-98870-2023-39-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [165.40001270018686, -21.60150341154382],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 165.40001270018686,
+        "lat": -21.60150341154382
+      }
+    },
+    {
+      "objectid": 98,
+      "globalid": "c5bd1898-00ea-4531-8e9c-2d97d9bafdaf",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "ENERCAL",
+      "nom_amenageur": "ENERCAL",
+      "nom_operateur": "ENERCAL",
+      "nom_station": "ENERCAL - Siège",
+      "adresse_station": "87 Avenue du Général de Gaulle",
+      "commune": "NOUMEA",
+      "code_commune": "98818",
+      "code_postal": "98800",
+      "nb_points_charge": 4,
+      "observations_stations": "2 Points de charge sont déjà en service, les 2 suivants le seront en juin ou juillet 2026",
+      "id_station": "NC-98800-2026-52-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [166.44444102266647, -22.280644267978186],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 166.44444102266647,
+        "lat": -22.280644267978186
+      }
+    },
+    {
+      "objectid": 99,
+      "globalid": "b7610653-61ec-42ac-8427-4ba5f460b123",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "ENERCAL",
+      "nom_amenageur": "ENERCAL",
+      "nom_operateur": "ENERCAL",
+      "nom_station": "ENERCAL - Siège",
+      "adresse_station": "Agence Enercal La Foa",
+      "commune": "LA FOA",
+      "code_commune": "98813",
+      "code_postal": "98880",
+      "nb_points_charge": 3,
+      "observations_stations": "Station déjà en service",
+      "id_station": "NC-98880-2026-53-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [165.8250060876502, -21.709127308714656],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 165.8250060876502,
+        "lat": -21.709127308714656
+      }
+    },
+    {
+      "objectid": 42,
+      "globalid": "85d5168e-15b7-4b55-8307-da26d7bd7282",
+      "type_demande": "Déclaration d'exploitation (puissance inférieure à 250 kVA)",
+      "nom_commercial": "Borne de Koné",
+      "nom_amenageur": "CEGELEC NORD",
+      "nom_operateur": "Agence Enercal Nord",
+      "nom_station": "Agence Enercal Nord",
+      "adresse_station": "Agence de Koné, RT1 98860 Koné",
+      "commune": "KONE",
+      "code_commune": "98811",
+      "code_postal": "98859",
+      "nb_points_charge": 2,
+      "observations_stations": null,
+      "id_station": "NC-98859-2022-4-S",
+      "geo_shape": {
+        "type": "Feature",
+        "geometry": {
+          "coordinates": [164.896903, -21.10058],
+          "type": "Point"
+        },
+        "properties": {}
+      },
+      "geo_point_2d": {
+        "lon": 164.896903,
+        "lat": -21.10058
+      }
     }
-  }
-]
+  ]
+}
