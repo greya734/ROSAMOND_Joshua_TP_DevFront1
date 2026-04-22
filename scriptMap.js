@@ -11,9 +11,10 @@ var marker = L.marker([-22.2758, 166.4572]).addTo(map);
 marker.bindPopup("<b>Nouméa</b>").openPopup();
 
 $.getJSON('placeholder.json', function(data){
-    $.each(data, function(index, personne){
-        console.log(personne.name)
+    console.log('Total :', data.total_count)
 
-        var marker = L.marker([borne.geo_shape.geometry.geo_point_2d.lat, borne.geo_shape.geometry.geo_point_2d.lon]).addTo(map)
+    $.each(data.results, function(index, station){
+        var marker = L.marker([station.geo_point_2d.lat, station.geo_point_2d.lon]).addTo(map);
     })
 })
+
