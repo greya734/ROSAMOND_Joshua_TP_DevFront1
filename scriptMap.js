@@ -10,7 +10,14 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', { maxZ
 var marker = L.marker([-22.2758, 166.4572]).addTo(map);
 marker.bindPopup("<b>Nouméa</b>").openPopup();
 
-$.getJSON('placeholder.json', function(data){
+
+$.ajax({
+    url : '/api/explore/v2.1/catalog/datasets/bornes-de-recharge-pour-vehicules-electriques/records?limit=20',
+})
+
+
+
+/*$.getJSON('placeholder.json', function(data){
     $.each(data, function(index, personne){
         console.log(personne.name)
 
@@ -19,4 +26,4 @@ $.getJSON('placeholder.json', function(data){
             "<p>" + personne.name + "</p><br>" +
             "<a href='mailto:" + personne.email + "'>" + personne.email + "</a>").openPopup();
     })
-}) 
+})*/ 
