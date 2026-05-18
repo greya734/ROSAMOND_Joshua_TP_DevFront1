@@ -138,7 +138,7 @@ function geoLocaliser() {
     );
 }
 
-$.getJSON('placeholder.json', function (data) {
+$.getJSON('js/placeholder.json', function (data) {
     console.log('Total :', data.total_count);
 
     $.each(data.results, function (index, station) {
