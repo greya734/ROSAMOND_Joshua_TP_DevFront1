@@ -12,6 +12,22 @@
         <div id="container">
             <div id="map"></div>
 
+            <div id="recherche">
+                <form>
+                    <select class="option-critere">
+                        <option value="nom_commercial">Nom</option>
+                        <option value="commune">Commune</option>
+                        <option value="objectid">Id</option>
+                        <option value="nom_amenageur">Amenageur</option>
+                        <option value="nom_operateur">operateur</option>
+                    </select>
+
+                    <input type="text" name="search" class="critere" placeholder="tapez ici">
+
+                    <button type="submit" class="src-button">Rechercher</button>
+                </form>
+            </div>
+
             <div id="barre_laterale" class="fermee">
                 <button id="btn-fermer">✕</button>
                 <div id="infos"></div>
