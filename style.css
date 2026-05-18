@@ -111,3 +111,42 @@ button.src-button:hover {
     background-color: white;
     border-color: black;
 }
+
+/* Bouton géolocalisation */
+#btn-geo {
+    background: rgba(0, 229, 255, 0.15);
+    border: 1px solid rgba(0, 229, 255, 0.5);
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2s;
+    line-height: 1;
+}
+
+#btn-geo:hover {
+    background: rgba(0, 229, 255, 0.35);
+}
+
+#btn-geo:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+/* Point utilisateur sur la carte */
+.user-dot {
+    width: 16px;
+    height: 16px;
+    background: #00e5ff;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px #00e5ff;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%   { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.6); }
+    70%  { box-shadow: 0 0 0 10px rgba(0, 229, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(0, 229, 255, 0); }
+}
