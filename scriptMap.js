@@ -31,15 +31,27 @@ function afficherStation(station, distance) {
         : '';
     document.getElementById('infos').innerHTML = `
         <h2>${station.nom_station}</h2>
-        <ul>
-            ${distTxt}
-            <li>Id : ${station.id_station}</li>
-            <li>Commune : ${station.commune}</li>
-            <li>Adresse : ${station.adresse_station}</li>
-            <li>Points de charge : ${station.nb_points_charge}</li>
-            <li>Opérateur : ${station.nom_operateur}</li>
-            <li>Observations : ${station.observations_stations ?? '—'}</li>
-        </ul>
+        <p>Id : ${station.id_station}</p>
+        <table>
+            <thead>
+               <tr>
+                  <th>Commune</th>
+                  <th>Adresse</th>
+                  <th>Points de charge</th>
+                  <th>Opérateur</th>
+                  <th>Observations</th>
+                </tr>
+            </thead>
+            <tbody>
+               <tr>
+                   <td>${station.commune}</td>
+                   <td>${station.adresse_station}</td>
+                   <td>${station.nb_points_charge}</td>
+                   <td>${station.nom_operateur}</td>
+                   <td>${station.observations_stations ?? '—'} </td>
+                </tr>
+            </tbody>
+        </table>
     `;
     $('#barre_laterale').removeClass('fermee');
 }
