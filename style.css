@@ -1,20 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #container {
-    display: flex;
+    position: relative;
+    width: 100%;
     height: 100vh;
 }
 
 #map {
-    flex: 1;
+    width: 100%;
     height: 100%;
 }
 
+/* Barre de recherche flottante en haut à gauche */
+#recherche {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 1000;
+    background: rgba(20, 20, 20, 0.82);
+    backdrop-filter: blur(6px);
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#recherche select,
+#recherche input {
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.12);
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+#recherche select option {
+    background: #222;
+    color: white;
+}
+
+#recherche input::placeholder {
+    color: rgba(255,255,255,0.45);
+}
+
+/* Barre latérale flottante à droite, par-dessus la carte */
 #barre_laterale {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 300px;
     height: 100%;
-    background: rgb(135, 132, 132);
+    z-index: 1000;
+    background: rgba(20, 20, 20, 0.88);
+    backdrop-filter: blur(8px);
+    color: white;
     padding: 20px;
-    box-shadow: -2px 0 5px rgba(0,0,0); 
-    transition: width 0.3s ease;
+    box-shadow: -4px 0 16px rgba(0,0,0,0.5);
+    transition: width 0.3s ease, padding 0.3s ease;
     overflow-y: auto;
 }
 
@@ -30,11 +80,34 @@
     border: none;
     background: none;
     font-size: 18px;
+    color: white;
 }
 
-#recherche{}
+#infos h2 {
+    margin-top: 30px;
+    font-size: 16px;
+}
 
-button.src-button{
+#infos ul {
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+button.src-button {
     color: white;
     border-radius: 20px;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 6px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s, color 0.2s;
+}
+
+button.src-button:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
 }
